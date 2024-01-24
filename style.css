@@ -1,0 +1,129 @@
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+body{
+    background-color: #f4f2ee;
+    
+}
+.h:hover{
+    background-color: #c6c7c8;
+    color: #fff;
+}
+
+
+.custom-divider{
+    height: 3rem;
+    background-color: #f4f2ee;
+}
+
+.product-image{
+    max-height: 150px;
+    max-width: 200px;
+}
+
+/* Custom changes */
+
+.bg-body-tertiary {
+
+    background-color: #2f2f2f!important;
+    opacity: 0.90;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    color: rgb(255 255 255)!important;
+ 
+}
+
+.nav-link {
+
+    color: rgb(255 255 255 / 65%)!important;
+
+}
+
+
+.btn-outline-success {
+
+    background-color: white!important;
+    
+}
+
+.distort{
+    
+    height: 197px;
+    object-fit: contain;
+    padding-top: 0.5rem;
+      
+      
+}
+
+.r{
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #464646!important;
+}
+.j{
+    background-color: #fff;
+}
+
+/* Media queiries */
+
+@media (max-width: 600px) {
+
+    .card{
+        width: 135px;
+    }
+    .distort{
+        height: 150px;
+    }
+    .btn-primary{
+        font-size: 10px;
+    }
+    .card-body{
+        padding: 0.7rem;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+   .card-text{
+    font-size: 10px;
+   }
+    .d-block{
+        height: 230px;
+        object-fit: cover;
+    }
+    .custom-divider{
+        height: 1rem;
+    }
+   .nav-link {
+    display: flex;
+    justify-content: end;
+   }
+   .nav-item{
+    display: flex;
+    justify-content: end;
+   }
+   .d-flex{
+    display: flex;
+    justify-content: end;
+   }
+   .navbar-toggler{
+    background-color: #fff;
+   }
+   .yoo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
