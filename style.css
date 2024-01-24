@@ -80,11 +80,11 @@ body{
 
 @media (max-width: 600px) {
 
-    .card{
-        width: 135px;
-    }
-    .distort{
-        height: 150px;
+    .distort {
+        height: 191px;
+        padding: 0;
+        /* width: 132px; */
+        object-fit: cover;
     }
     .btn-primary{
         font-size: 10px;
@@ -93,7 +93,7 @@ body{
         padding: 0.7rem;
     }
     .card-title{
-        font-size: 18px;
+        font-size: 17px;
     }
    .card-text{
     font-size: 10px;
@@ -104,6 +104,9 @@ body{
     }
     .custom-divider{
         height: 1rem;
+    }
+    .r{
+        margin-bottom: 1.5rem;
     }
    .nav-link {
     display: flex;
