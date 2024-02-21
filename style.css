@@ -9,6 +9,31 @@ body{
     background-color: #f4f2ee;
     
 }
+.rf{
+    position: absolute;
+}
+.carousel-item{
+    position: relative;
+}
+.new{
+    width: 258px;
+    padding: 0;
+   
+    border-radius: 2px;
+    object-fit: contain;
+}
+.cm{
+    object-fit: cover!important;
+}
+.hm {
+    margin-top: -7.6px;
+    object-fit: cover!important;
+    
+}
+.another {
+    object-fit: cover!important;
+    margin-top: -7px;
+}
 .h:hover{
     background-color: #c6c7c8;
     color: #fff;
@@ -79,7 +104,7 @@ body{
 /* Media queiries */
 
 @media (max-width: 600px) {
-
+    
     .distort {
         height: 191px;
         padding: 0;
@@ -129,4 +154,8 @@ body{
     justify-content: center;
     align-items: center;
    }
+
 }
+
+
+@me
